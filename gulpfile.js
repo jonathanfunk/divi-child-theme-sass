@@ -21,10 +21,12 @@ gulp.task('sass', function () {
       browsers: ['last 2 versions']
     }))
     .pipe(gulp.dest('./'))
-    //.pipe(cssnano())//Uncomment if you want to minify your css files
+    .pipe(cssnano())
     .pipe(rename('ls-styles.css'))
     .pipe(gulp.dest('./'));
 });
 
-//default
-gulp.task('default', ['sass']);
+//Default Watch Task
+gulp.task('default',function() {
+  gulp.watch('sass/**/*.scss',['sass']);
+});
