@@ -37,7 +37,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 					}
 				?>
 
-						<p id="footer-info">Designed by <a href="http://rtown.ca" target="_blank">RTOWN.</a></p>
+						<p id="footer-info"></p>
 					</div>	<!-- .container -->
 				</div>
 			</footer> <!-- #main-footer -->

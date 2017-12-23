@@ -1,7 +1,7 @@
 {
   "name": "divi-child",
   "version": "1.0.0",
-  "description": "",
+  "description": "Divi Child Theme using Sass",
   "main": "gulpfile",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
